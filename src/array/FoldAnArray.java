@@ -1,4 +1,4 @@
-package FoldAnArray;
+package array;
 
 public class FoldAnArray {
 
