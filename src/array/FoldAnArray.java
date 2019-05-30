@@ -1,10 +1,15 @@
 package array;
 
+import kata.Kata;
 import org.jetbrains.annotations.NotNull;
 
-public class FoldAnArray {
+public class FoldAnArray extends Kata {
 
-    private final String kataLink = "https://www.codewars.com/kata/57ea70aa5500adfe8a000110";
+    private static final String kataLink = "https://www.codewars.com/kata/57ea70aa5500adfe8a000110";
+
+    public FoldAnArray() {
+        super(kataLink);
+    }
 
     public static int[] foldArray(@NotNull int[] input, int runs) {
 

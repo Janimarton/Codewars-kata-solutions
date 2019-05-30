@@ -1,8 +1,14 @@
 package matrix;
 
-public class Addiction {
+import kata.Kata;
 
-    private final String kataLink = "https://www.codewars.com/kata/matrix-addition/train/java";
+public class Addiction extends Kata {
+
+    private final static String kataLink = "https://www.codewars.com/kata/matrix-addition/train/java";
+
+    public Addiction() {
+        super(kataLink);
+    }
 
     public static int[][] matrixAddition(int[][] a, int[][] b) {
 

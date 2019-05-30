@@ -1,8 +1,14 @@
 package fibonacci;
 
-public class Xbonacci {
+import kata.Kata;
 
-    private final String kataLink = "https://www.codewars.com/kata/556deca17c58da83c00002db/train/javascript";
+public class Xbonacci extends Kata {
+
+    private static final String kataLink = "https://www.codewars.com/kata/556deca17c58da83c00002db/train/javascript";
+
+    public Xbonacci() {
+        super(kataLink);
+    }
 
     public double[] tribonacci(double[] s, int n) {
 
